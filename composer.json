@@ -1,0 +1,22 @@
+{
+  "name": "digitaldream/shop",
+  "description": "Object Oriented Design Practice",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tuhin Bepari",
+      "email": "digitaldreams40@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "classmap": [
+      "Contracts",
+      "Inventory",
+      "Products",
+      "Offers",
+      "User"
+    ]
+  }
+}
