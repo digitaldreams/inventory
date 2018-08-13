@@ -21,4 +21,4 @@ print_r($invoice->grandTotal());
 echo '<br>';
 print_r($invoice->discount());
 // You can see our Stock updated
-//print_r($stock);
+print_r($stock);

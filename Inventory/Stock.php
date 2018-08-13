@@ -23,11 +23,12 @@ class Stock
 
     /**
      * @param Product $product
+     * @return int
      */
     public function count(Product $product)
     {
         $productClass = get_class($product);
-        return !empty($this->items[$productClass]) ? count($this->items[$productClass]) : 0;
+        return !empty($this->items[$productClass]) ? $this->items[$productClass] : 0;
     }
 
     /**
